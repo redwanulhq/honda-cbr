@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600&family=Jost:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;700;900&display=swap");
+body {
+    font-family: "Poppins", sans-serif;
+}
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+p.cover-pera1 {
+    font-size: 20px;
+}
+h1.cover-title {
+    font-size: clamp(20px, 8vw, 55px);
+    color: #e7e7e7;
+}
+p.cover-pera2 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #ddd;
+}
+p.cover-pera1 {
+    font-size: 20px;
+    color: #ddd;
+}
+.mb-extra {
+    margin-bottom: 100px !important;
+}
+.hero-bg {
+    background: linear-gradient(30deg, #000000, #434343);
+}
+.img-saturate {
+    filter: saturate(3.5);
+}
+.login-btn {
+    background: linear-gradient(46deg, rgb(12 12 12 / 2%), rgb(255 255 255 / 52%));
+    border-radius: 5px;
+    border: 1px solid rgb(68, 68, 68);
+    transition: all 0.4s ease 0s;
+    color: rgb(221, 221, 221) !important;
+    padding: 7px 28px !important;
+}
+.hero-btn {
+    color: #ddd;
+    border-radius: 5px;
+    padding: 13px 40px;
+    border: 1px solid black;
+    background: linear-gradient(67deg, #1a1a1a, #ffffff8c);
+    transition: 0.4s;
+}
+.hero-btn:hover,
+.login-btn:hover {
+    background: transparent;
+    border: 1px solid #ddd;
+}
+.news-btn {
+    border: 1.5px solid #fb643e !important;
+    background-color: #fff;
+    color: #fb643e;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+.img-grayscale {
+    filter: grayscale(100%);
+}
+.main-color,
+.fa-star {
+    color: #fb643e;
+}
+.client-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.accordion-button {
+    border: 0.5px solid rgba(221, 221, 221, 0.534) !important;
+    color: black !important;
+    background-color: white !important;
+}
+.accordion-button:focus {
+    border: none;
+    box-shadow: none;
+}
+.accordion-body {
+    color: #777;
+}
+.accordion-item {
+    margin-bottom: 10px;
+}
+.specs-link {
+    width: 130px;
+    transition: 0.3s;
+}
+.specs-link:hover {
+    color: #fb643e !important;
+}
+.signup {
+    background-image: url(/images/bg-white-dotted.webp);
+}
+.form-btn {
+    background-color: #fb643e;
+    color: white;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 5px;
+}
+footer {
+    background-color: #0b0d17;
+}
+main {
+    overflow-x: hidden;
+}
